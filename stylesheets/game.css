@@ -1,0 +1,32 @@
+/* line 1, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+.index {
+  background: black; }
+
+/* line 4, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+table.game {
+  font-size: 5em;
+  margin: 1em auto 0;
+  border: solid 4px grey; }
+  /* line 9, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+  table.game td {
+    width: 2em;
+    height: 2em;
+    border: solid 1px grey;
+    text-align: center;
+    cursor: pointer;
+    background: white; }
+    /* line 17, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+    table.game td .mark {
+      font-weight: bold; }
+    /* line 20, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+    table.game td .mark-X {
+      background-image: url("/tic-tac-toc/images/android.png");
+      height: 160px;
+      width: 160px;
+      text-indent: -999em; }
+    /* line 25, /Users/mansouri/altagem/projects/tictac/demo-tictactoe-css3-js-minmax/source/stylesheets/game.css.sass */
+    table.game td .mark-O {
+      background-image: url("/tic-tac-toc/images/ruby.png");
+      height: 160px;
+      width: 160px;
+      text-indent: -999em; }
